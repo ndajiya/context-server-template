@@ -16,12 +16,12 @@ This is a lightweight, generic [Model Context Protocol (MCP)](https://github.com
 ```bash
 git clone https://github.com/yourusername/mcp-generic-server.git
 cd mcp-generic-server
-npm install
+npm install```
+
 🚀 Running the Server
-bash
-Copy
-Edit
+```bash
 node index.js
+```
 This will start the server and connect it via stdio (e.g., for use in Claude Desktop or similar tool-calling environments).
 
 🔧 Tool Definitions
@@ -34,10 +34,8 @@ Input Schema: {}
 Description: Returns a greeting.
 
 Input Schema:
-
+```
 json
-Copy
-Edit
 {
   "type": "object",
   "properties": {
@@ -48,6 +46,7 @@ Edit
   },
   "required": []
 }
+```
 💡 Customization
 To add your own tools, modify the TOOLS array in index.js and extend the "tools/call" logic to handle them.
 
