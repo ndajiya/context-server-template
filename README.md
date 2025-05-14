@@ -26,7 +26,8 @@ node index.js
 ```
 This will start the server and connect it via stdio (e.g., for use in Claude Desktop or similar tool-calling environments).
 
-🔧 Tool Definitions
+## 🔧 Tool Definitions
+
 1. about
 Description: Returns information about the MCP server.
 
@@ -49,10 +50,12 @@ json
   "required": []
 }
 ```
-💡 Customization
+## 💡 Customization
+
 To add your own tools, modify the TOOLS array in index.js and extend the "tools/call" logic to handle them.
 
-🧪 Testing
+## 🧪 Testing
+
 You can test the server using:
 
 Claude Desktop (via stdio plugin)
@@ -61,7 +64,8 @@ A custom LLM tool-caller that supports MCP over stdio
 
 Manual calls using tools like ncat, jq, or a test harness
 
-🛠 MCP Methods Supported
+## 🛠 MCP Methods Supported
+
 initialize
 
 tools/list
@@ -72,8 +76,10 @@ resources/list (returns empty array)
 
 prompts/list (returns empty array)
 
-🛡 License
+## 🛡 License
+
 This project is licensed under the MIT License. Please retain attribution in derivative works.
 
-🙌 Credits
+## 🙌 Credits
+
 Built using the Model Context Protocol SDK.
