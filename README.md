@@ -18,7 +18,8 @@ git clone https://github.com/yourusername/mcp-generic-server.git
 cd mcp-generic-server
 npm install```
 
-🚀 Running the Server
+## 🚀 Running the Server
+
 ```bash
 node index.js
 ```
