@@ -16,7 +16,8 @@ This is a lightweight, generic [Model Context Protocol (MCP)](https://github.com
 ```bash
 git clone https://github.com/yourusername/mcp-generic-server.git
 cd mcp-generic-server
-npm install```
+npm install
+```
 
 ## 🚀 Running the Server
 
