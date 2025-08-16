@@ -1,7 +1,7 @@
 # context-server-template
 LLM-agnostic Context Server- node
 
-This is a lightweight, generic [Model Context Protocol (MCP)](https://github.com/modelcontext/protocol) server implementation written in Node.js. It defines a few simple tools and can be used with any LLM that supports the MCP tool calling interface — including Claude, ChatGPT (via wrappers), OpenDevin, or open-source LLMs.
+This is a lightweight, generic Context server implementation written in Node.js. It defines a few simple tools and can be used with any LLM that supports the Context tool calling interface — including Claude, ChatGPT (via wrappers), OpenDevin, or open-source LLMs.
 
 ## 🛠 Features
 
