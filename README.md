@@ -1,11 +1,11 @@
-# mcp-server-template
-LLM-agnostic MCP Server- node
+# context-server-template
+LLM-agnostic Context Server- node
 
 This is a lightweight, generic [Model Context Protocol (MCP)](https://github.com/modelcontext/protocol) server implementation written in Node.js. It defines a few simple tools and can be used with any LLM that supports the MCP tool calling interface — including Claude, ChatGPT (via wrappers), OpenDevin, or open-source LLMs.
 
 ## 🛠 Features
 
-- Supports MCP over stdio
+- Supports Context Server over stdio
 - Defines two example tools:
   - `about` — returns information about the server
   - `hello` — returns a friendly greeting
@@ -14,8 +14,8 @@ This is a lightweight, generic [Model Context Protocol (MCP)](https://github.com
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/mcp-generic-server.git
-cd mcp-generic-server
+git clone https://github.com/yourusername/cs-generic-server.git
+cd cs-generic-server
 npm install
 ```
 
@@ -64,7 +64,7 @@ A custom LLM tool-caller that supports MCP over stdio
 
 Manual calls using tools like ncat, jq, or a test harness
 
-## 🛠 MCP Methods Supported
+## 🛠 CS Methods Supported
 
 initialize
 
